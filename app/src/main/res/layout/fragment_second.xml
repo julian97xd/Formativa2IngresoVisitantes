@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t_NombreVisitante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Visitante" />
+
+        <TextView
+            android:id="@+id/t_Cedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="Cedula" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t_Apto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apartamento" />
+
+        <TextView
+            android:id="@+id/t_TipoVisitante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de visitante" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de ingreso"
+            android:id="@+id/efecha"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ehora"
+            android:hint="Hora de ingreso"
+            android:inputType="number"
+             />
+
+    </LinearLayout>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="CERRAR"
+       android:id="@+id/Cerrar"></Button>
+    </LinearLayout>
